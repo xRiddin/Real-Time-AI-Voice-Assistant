@@ -1,0 +1,24 @@
+{
+  "name": "vocord",
+  "version": "1.1.0",
+  "description": "Assistant",
+  "main": "server.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deepgram/sdk": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "file-type": "^19.0.0",
+    "groq-sdk": "^0.3.2",
+    "llamaindex": "^0.2.10",
+    "openai": "^4.38.2",
+    "playht": "^0.9.8",
+    "ws": "^8.16.0"
+  }
+}
