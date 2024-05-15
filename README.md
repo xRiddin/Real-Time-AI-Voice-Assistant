@@ -1,5 +1,6 @@
 # Real-time Fast AI Voice assistant
 ## Features
+- Fast AI Voice Assistant, takes <1 second to reply back to you.
 - Built using Node.js and Websockets.
 - AI Voice Assistant makes use of Groq API(AI models), deepgram api(STT) and playHT/neets API (TTS)
 - The voice assistance that actually listens to you when you speak or interrupt the assistant.
