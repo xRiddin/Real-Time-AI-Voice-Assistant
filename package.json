@@ -1,9 +1,9 @@
 {
-  "name": "vocord",
+  "name": "AI Voice Assistant",
   "version": "1.1.0",
   "description": "Assistant",
   "main": "server.js",
-  "private": "true",
+  "private": "false",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,8 +16,6 @@
     "express": "^4.18.2",
     "file-type": "^19.0.0",
     "groq-sdk": "^0.3.2",
-    "llamaindex": "^0.2.10",
-    "openai": "^4.38.2",
     "playht": "^0.9.8",
     "ws": "^8.16.0"
   }

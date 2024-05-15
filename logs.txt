@@ -1,0 +1,18 @@
+
+2024-05-15T08:15:36.815Z : socket: client connected
+
+2024-05-15T08:15:42.515Z : deepgram_spoken: Hello.
+
+2024-05-15T08:15:43.388Z : groq response: Hello! It's nice to meet you. Is there something I can help you with, or would you like to chat about something in particular?
+
+2024-05-15T08:15:56.539Z : deepgram_spoken: No. Thanks.
+
+2024-05-15T08:15:58.151Z : groq response: You're welcome! How's your day going so far?
+
+2024-05-15T08:16:06.712Z : deepgram_spoken: Pretty good.
+
+2024-05-15T08:16:09.081Z : groq response: That's great to hear! It sounds like you're having a good day. Is there anything on your mind that you'd like to chat about or ask about? I'm here to listen and help if I can!
+
+2024-05-15T08:16:22.157Z : deepgram_spoken: Disconnect.
+
+2024-05-15T08:16:22.191Z : socket: client disconnected

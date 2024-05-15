@@ -6,27 +6,34 @@ const fs = require('fs');
 const { createClient, LiveTranscriptionEvents } = require("@deepgram/sdk");
 const dotenv = require("dotenv");
 const {play , initialize} = require('./models/playht');
+// const {neets} = require('./models/neets');
+
+
 dotenv.config();
+
 let stack = [{
   'role': 'system',
-  'content': 'Always maintain short conversations. Always assist with care, respect, and truth. Respond with utmost utility yet securely. Avoid harmful, unethical, prejudiced, or negative content. Ensure replies promote fairness and positivity.'
+  'content': 'Always maintain short and interactive conversations. Always assist with care, respect, and truth. Respond with utmost utility yet securely. Avoid harmful, unethical, prejudiced, or negative content. Ensure replies promote fairness and positivity.'
 }];
+
 let keepAlive;
 let count=0;
 let sid1=0;
 let sid2=0;
 let pl1=0;
 let pl2=0;
+
 const app = express();
 
 const server = http.createServer(app)
 const wss = new WebSocket.Server({ server });
-initialize()
 const deepgramClient = createClient(process.env.DEEPGRAM_API_KEY);
+
 function log(message) {
   let text = new Date().toISOString() + " : " + message;
   fs.appendFile('./logs.txt', '\n'+text+'\n', (result)=> { console.log(result)});
 }
+initialize()
 
 const setupDeepgram = (ws) => {
   async function playh(responseText){
@@ -94,16 +101,18 @@ const setupDeepgram = (ws) => {
         console.log(caption)
         log(`deepgram_spoken: ${caption}`)
         ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify(caption)}));
-        const regex = /mickey\s*,?\s*stop/i;
+        const regex = /disconnect/i;
         if (regex.test(caption)) {
-          ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify('#assistance stopped#')}));
+          ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify('#assistant stopped#')}));
           deepgram.finish();
           ws.close();
         }
-        const responseText = await getGroqChat(caption, stack);
-        log(`groq response: ${responseText}`)
-        await playh(responseText)
-
+        else {
+          const responseText = await getGroqChat(caption, stack);
+          log(`groq response: ${responseText}`)
+          await playh(responseText)
+          // await neets(responseText)
+        }
       }
   });
 

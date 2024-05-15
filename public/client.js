@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.src = URL.createObjectURL(mediaSource);
 
     mediaSource.addEventListener('sourceopen', () => {
-      audioSourceBuffer = mediaSource.addSourceBuffer('audio/mp3');
+      audioSourceBuffer = mediaSource.addSourceBuffer('audio/mpeg');
       audioSourceBuffer.addEventListener('updateend', playBufferedAudio);
       // Now we're safe to start processing buffered audio data
       if (audioData.length > 0 && !audioSourceBuffer.updating) {
@@ -101,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
       stopAudio()
     }
     else if (data.type === 'audio_session'){
-
       if(data.sid1){
         console.log('ssid1 updated')
         ssid1 = data.sid1;
@@ -110,7 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('ssid2 updated')
         ssid2 = data.sid2
       }
-       // Update the current session ID
 
       if (ssid1 !== ssid2 && audio) {
 console.log('2stopping previous audio')
@@ -123,7 +121,7 @@ console.log('2stopping previous audio')
       if (ssid1 === ssid2) {
         console.log('ssids matched and pushing into audiodata')
         audioData.push(new Uint8Array(data.output));
-        if (mediaSource.readyState === "open" && !audioSourceBuffer.updating) {
+        if (audioSourceBuffer && mediaSource.readyState === "open" && !audioSourceBuffer.updating) {
           playBufferedAudio();
         }
       }

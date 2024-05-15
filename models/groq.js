@@ -6,7 +6,6 @@ const groq = new Groq({
     apiKey: process.env.GROQ_API_KEY
 });
 
-
 async function getGroqChat(text, stack) {
     console.log('groq: request recieved');
     console.time('groq_api')
@@ -27,7 +26,7 @@ async function getGroqChat(text, stack) {
     stack.push(
         {
             role: 'assistant',
-            content: res
+            content: 'previous conversation for reference:' + res
         }
     )
     console.timeEnd('groq_api')
