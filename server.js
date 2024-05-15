@@ -67,6 +67,7 @@ const setupDeepgram = (ws) => {
     punctuate: true,
     smart_format: true,
     model: "nova-2-phonecall",
+    endpointing: 400
   });
 
   if (keepAlive) clearInterval(keepAlive);
