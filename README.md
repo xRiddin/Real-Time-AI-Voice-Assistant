@@ -9,7 +9,7 @@
 - You can stop the assistant by saying "Disconnect".
   
   ## Installation
-  ### Star and Clone this repository
+  ### Clone this repository
   ```git clone https://github.com/xriddin/real-time-AI-voice-assistant.git```
   ### install the dependencies:
   ```npm i```
@@ -21,4 +21,6 @@
 
   ### Start the Assistant
   ``` npm run start ```
+  ### Contributing
+  If you encounter bugs or have feature requests, please create an issue on GitHub. Pull requests are also appreciated. Don't forget to star this project if you find it useful!
   

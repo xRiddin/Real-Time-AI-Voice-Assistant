@@ -103,10 +103,15 @@ const setupDeepgram = (ws) => {
         log(`deepgram_spoken: ${caption}`)
         ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify(caption)}));
         const regex = /disconnect/i;
+        const regex2 = /turbo/i;
         if (regex.test(caption)) {
           ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify('#assistant stopped#')}));
           deepgram.finish();
           ws.close();
+        }
+        else if(regex2.text(caption)){
+            ws.send(JSON.stringify({'type': 'caption', 'output': JSON.stringify('#turbo mode activated#')}));
+            let deepgram = setupDeepgram(socket);
         }
         else {
           const responseText = await getGroqChat(caption, stack);
