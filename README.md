@@ -1,5 +1,6 @@
 # Real-time Fast AI Voice assistant
 ## Features
+- Built using Node.js and Websockets.
 - AI Voice Assistant makes use of Groq API(AI models), deepgram api(STT) and playHT/neets API (TTS)
 - The voice assistance that actually listens to you when you speak or interrupt the assistant.
 - Uses LLama 3 70b/8b or gemma 7b AI models.
