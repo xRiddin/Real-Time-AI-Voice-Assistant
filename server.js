@@ -23,6 +23,11 @@ let sid2=0;
 let pl1=0;
 let pl2=0;
 
+if(!process.env.DEEPGRAM_API_KEY && !process.env.GROQ_API_KEY && !process.env.PLAY_API_KEY && !process.env.PLAY_USERID){
+    console.error('Please provide all the required keys in the .env file')
+    process.exit(1);
+}
+
 const app = express();
 
 const server = http.createServer(app)
@@ -33,6 +38,7 @@ function log(message) {
   let text = new Date().toISOString() + " : " + message;
   fs.appendFile('./logs.txt', '\n'+text+'\n', (result)=> { console.log(result)});
 }
+
 initialize()
 
 const setupDeepgram = (ws) => {
