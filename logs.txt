@@ -16,3 +16,213 @@
 2024-05-15T08:16:22.157Z : deepgram_spoken: Disconnect.
 
 2024-05-15T08:16:22.191Z : socket: client disconnected
+
+2024-05-19T13:17:16.668Z : socket: client connected
+
+2024-05-19T13:17:19.512Z : socket: client disconnected
+
+2024-05-19T13:23:04.258Z : socket: client connected
+
+2024-05-19T13:23:39.329Z : socket: client disconnected
+
+2024-05-19T13:26:14.918Z : socket: client connected
+
+2024-05-19T13:26:33.359Z : socket: client disconnected
+
+2024-05-19T13:36:33.023Z : socket: client connected
+
+2024-05-19T13:38:48.702Z : socket: client connected
+
+2024-05-19T13:44:12.286Z : socket: client connected
+
+2024-05-19T13:59:37.262Z : socket: client connected
+
+2024-05-19T13:59:40.993Z : deepgram: connected
+
+2024-05-19T13:59:41.097Z : deepgram: connected
+
+2024-05-19T13:59:41.281Z : deepgram: connected
+
+2024-05-19T13:59:41.436Z : deepgram: connected
+
+2024-05-19T13:59:41.443Z : deepgram: connected
+
+2024-05-19T13:59:41.519Z : deepgram: connected
+
+2024-05-19T13:59:41.521Z : deepgram: connected
+
+2024-05-19T13:59:41.522Z : deepgram: connected
+
+2024-05-19T13:59:41.664Z : deepgram: connected
+
+2024-05-19T13:59:42.042Z : deepgram: connected
+
+2024-05-19T13:59:45.085Z : deepgram: connected
+
+2024-05-19T13:59:45.106Z : deepgram: connected
+
+2024-05-19T13:59:45.171Z : deepgram: connected
+
+2024-05-19T13:59:45.172Z : deepgram: connected
+
+2024-05-19T13:59:45.173Z : deepgram: connected
+
+2024-05-19T13:59:45.216Z : deepgram: connected
+
+2024-05-19T13:59:45.232Z : deepgram: connected
+
+2024-05-19T13:59:45.232Z : deepgram: connected
+
+2024-05-19T13:59:45.259Z : deepgram: connected
+
+2024-05-19T13:59:45.296Z : deepgram: connected
+
+2024-05-19T13:59:45.304Z : deepgram: connected
+
+2024-05-19T13:59:45.326Z : deepgram: connected
+
+2024-05-19T13:59:45.348Z : deepgram: connected
+
+2024-05-19T13:59:45.404Z : deepgram: connected
+
+2024-05-19T13:59:45.436Z : deepgram: connected
+
+2024-05-19T13:59:45.446Z : deepgram: connected
+
+2024-05-19T13:59:45.463Z : deepgram: connected
+
+2024-05-19T13:59:45.486Z : deepgram: connected
+
+2024-05-19T13:59:45.527Z : deepgram: connected
+
+2024-05-19T13:59:45.531Z : deepgram: connected
+
+2024-05-19T13:59:45.548Z : deepgram: connected
+
+2024-05-19T13:59:45.550Z : deepgram: connected
+
+2024-05-19T13:59:45.556Z : deepgram: connected
+
+2024-05-19T13:59:45.558Z : deepgram: connected
+
+2024-05-19T13:59:45.574Z : deepgram: connected
+
+2024-05-19T13:59:45.579Z : deepgram: connected
+
+2024-05-19T13:59:45.599Z : deepgram: connected
+
+2024-05-19T13:59:45.600Z : deepgram: connected
+
+2024-05-19T13:59:45.600Z : deepgram: connected
+
+2024-05-19T13:59:45.611Z : deepgram: connected
+
+2024-05-19T13:59:45.644Z : deepgram: connected
+
+2024-05-19T13:59:45.673Z : deepgram: connected
+
+2024-05-19T13:59:45.674Z : deepgram: connected
+
+2024-05-19T13:59:45.679Z : deepgram: connected
+
+2024-05-19T13:59:45.691Z : deepgram: connected
+
+2024-05-19T13:59:45.716Z : deepgram: connected
+
+2024-05-19T13:59:45.716Z : deepgram: connected
+
+2024-05-19T13:59:45.738Z : deepgram: connected
+
+2024-05-19T13:59:45.782Z : deepgram: connected
+
+2024-05-19T13:59:45.811Z : deepgram: connected
+
+2024-05-19T13:59:45.849Z : deepgram: connected
+
+2024-05-19T13:59:45.849Z : deepgram: connected
+
+2024-05-19T13:59:45.859Z : deepgram: connected
+
+2024-05-19T13:59:45.876Z : deepgram: connected
+
+2024-05-19T13:59:45.880Z : deepgram: connected
+
+2024-05-19T13:59:45.932Z : deepgram: connected
+
+2024-05-19T13:59:45.933Z : deepgram: connected
+
+2024-05-19T13:59:45.934Z : deepgram: connected
+
+2024-05-19T13:59:46.089Z : deepgram: connected
+
+2024-05-19T13:59:46.093Z : deepgram: connected
+
+2024-05-19T13:59:46.098Z : deepgram: connected
+
+2024-05-19T13:59:46.099Z : deepgram: connected
+
+2024-05-19T13:59:46.100Z : deepgram: connected
+
+2024-05-19T13:59:46.120Z : deepgram: connected
+
+2024-05-19T13:59:46.138Z : deepgram: connected
+
+2024-05-19T13:59:46.155Z : deepgram: connected
+
+2024-05-19T13:59:46.155Z : deepgram: connected
+
+2024-05-19T13:59:46.157Z : deepgram: connected
+
+2024-05-19T13:59:46.158Z : deepgram: connected
+
+2024-05-19T13:59:46.192Z : deepgram: connected
+
+2024-05-19T13:59:46.201Z : deepgram: connected
+
+2024-05-19T13:59:46.215Z : deepgram: connected
+
+2024-05-19T13:59:46.216Z : deepgram: connected
+
+2024-05-19T13:59:46.218Z : deepgram: connected
+
+2024-05-19T13:59:46.220Z : deepgram: connected
+
+2024-05-19T13:59:46.222Z : deepgram: connected
+
+2024-05-19T13:59:46.224Z : deepgram: connected
+
+2024-05-19T13:59:46.235Z : deepgram: connected
+
+2024-05-19T13:59:46.241Z : deepgram: connected
+
+2024-05-19T13:59:46.242Z : deepgram: connected
+
+2024-05-19T13:59:46.249Z : deepgram: connected
+
+2024-05-19T13:59:46.250Z : deepgram: connected
+
+2024-05-19T13:59:46.251Z : deepgram: connected
+
+2024-05-19T13:59:46.251Z : deepgram: connected
+
+2024-05-19T13:59:46.254Z : deepgram: connected
+
+2024-05-19T13:59:46.251Z : deepgram: connected
+
+2024-05-19T13:59:46.251Z : deepgram: connected
+
+2024-05-19T13:59:46.251Z : deepgram: connected
+
+2024-05-19T13:59:46.255Z : deepgram: connected
+
+2024-05-19T13:59:46.256Z : deepgram: connected
+
+2024-05-19T13:59:46.263Z : deepgram: connected
+
+2024-05-19T14:04:05.855Z : socket: client connected
+
+2024-05-19T14:23:07.207Z : socket: client connected
+
+2024-05-19T14:25:00.635Z : socket: client connected
+
+2024-05-19T14:26:55.577Z : socket: client connected

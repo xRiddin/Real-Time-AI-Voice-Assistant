@@ -11,22 +11,19 @@ async function getGroqChat(text, stack) {
     console.time('groq_api')
     stack.push(
         {
-            role: "user",
+            role: 'user',
             content: text
         }
     )
     const res = await groq.chat.completions.create({
-        messages: stack.map(message => ({
-            role: message.role,
-            content: typeof message.content === 'string' ? message.content : '',
-        })),
+        messages: stack,
         model: "llama3-70b-8192",
         stream: false
     });
     stack.push(
         {
             role: 'assistant',
-            content: 'previous conversation for reference:' + res
+            content: res.choices[0].message.content
         }
     )
     console.timeEnd('groq_api')
