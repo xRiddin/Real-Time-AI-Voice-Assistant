@@ -24,3 +24,8 @@
   ### Contributing
   If you encounter bugs or have feature requests, please create an issue on GitHub. Pull requests are also appreciated. Don't forget to star this project if you find it useful!
   
+  ### Thanks to the following projects:
+- [Groq API](https://groq.com)
+- [Deepgram API](https://deepgram.com)
+- [PlayHT API](https://play.ht)
+- [Neets API](https://neets.ai/studio)
